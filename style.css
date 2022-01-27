@@ -4,10 +4,31 @@ header, main{
     align-items: center;
 }
 
+#link{
+    color: black;
+    transition: 0.5s;
+}
+
 button{
-    width: 80px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #e6ff09;
+    border-radius: 5px;
 }
 
 img{
     width: 250px;
+}
+
+#restaura img{
+    width: 12px;
+}
+
+footer{
+    border-top: 2px dashed black;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
 }
